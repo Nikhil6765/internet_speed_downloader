@@ -16,7 +16,11 @@ logo_label.image=logo
 logo_label.pack()
 
 new_label=tk.Label(root, text="Test download speed",font=("Areal",18,"bold"), fg="green" )
-new_label.pack()
+new_label.pack(padx=20,pady=20)
 
+# creating buttons
+
+button1=tk.Button(root, text="check",font=("Areal",18,"bold"))
+button1.pack(padx=20,pady=10)
 
 root.mainloop()
