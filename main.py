@@ -17,10 +17,6 @@ def SpeedTest():
     speed=str(math.floor(st.download()/1000)) + "kb/s"
     messagebox.showinfo("The speed is ", speed)
 
-
-
-
-
 #logo
 
 logo=Image.open("robot.png")
