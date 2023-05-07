@@ -20,13 +20,13 @@ new_label.pack(padx=20,pady=20)
 
 # creating buttons
 
-button1=tk.Button(root, text="check",font=("Areal",18,"bold"))
+button1=tk.Button(root, text="check",font=("Areal",16,"bold"))
 button1.pack(padx=20,pady=10)
 
-button1=tk.Button(root, text="exit",font=("Areal",18,"bold"))
+button1=tk.Button(root, text="exit",font=("Areal",16,"bold"))
 button1.pack(padx=10,pady=10)
   
-new_label2=tk.Label(root, text="Thanks !!", font=("Areal",18,"bold"),bg="black",fg="white" )
+new_label2=tk.Label(root, text="Thanks !!", font=("Areal",16,"bold"),bg="black",fg="white" )
 new_label2.pack(padx=10,pady=10, fill="both", expand=True)
 
 
