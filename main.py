@@ -23,4 +23,8 @@ new_label.pack(padx=20,pady=20)
 button1=tk.Button(root, text="check",font=("Areal",18,"bold"))
 button1.pack(padx=20,pady=10)
 
+button1=tk.Button(root, text="exit",font=("Areal",18,"bold"))
+button1.pack(padx=10,pady=10)
+  
+
 root.mainloop()
