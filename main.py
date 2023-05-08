@@ -15,7 +15,7 @@ root.title("Internet Speed Downloader")
 st=pyspeedtest.SpeedTest("www.google.com")
 def SpeedTest():
     speed=str(math.floor(st.download()/1000)) + "kb/s"
-    messagebox.showinfo("The speed is ", speed)
+    messagebox.showinfo("The Sspeed is ", speed)
 
 #logo
 
