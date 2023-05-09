@@ -38,6 +38,4 @@ button2.pack(padx=10,pady=10)
 new_label2=tk.Label(root, text="Thanks !!", font=("Areal",16,"bold"),bg="black",fg="white" )
 new_label2.pack(padx=10,pady=10, fill="both", expand=True)
 
-
-
 root.mainloop()
