@@ -6,10 +6,14 @@ from tkinter import messagebox
 
 
 
-root=tk.Tk()
-root.geometry("300x450")
-root.resizable(0,0)
+root=tk.Tk()                # creates a window
+
+root.geometry("300x450")    # defining size of the Window
+
+root.resizable(0,0)         # fixing the size of the Window
+
 root.title("Internet Speed Downloader")
+
 # creating function
 
 st=pyspeedtest.SpeedTest("www.google.com")
