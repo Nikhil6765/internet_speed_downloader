@@ -19,7 +19,7 @@ root.title("Internet Speed Downloader")
 st=pyspeedtest.SpeedTest("www.google.com")
 def SpeedTest():
     speed=str(math.floor(st.download()/1000)) + "kb/s"
-    messagebox.showinfo("The Sspeed is ", speed)
+    messagebox.showinfo("The Speed is ", speed)
 
 #logo
 
@@ -37,8 +37,8 @@ new_label.pack(padx=20,pady=20)
 button1=tk.Button(root, text="check",command=SpeedTest,font=("Areal",16,"bold"))
 button1.pack(padx=20,pady=10)
 
-button1=tk.Button(root, text="exit",command=root.destroy,font=("Areal",16,"bold"))
-button1.pack(padx=10,pady=10)
+button2=tk.Button(root, text="exit",command=root.destroy,font=("Areal",16,"bold"))
+button2.pack(padx=10,pady=10)
   
 new_label2=tk.Label(root, text="Thanks !!", font=("Areal",16,"bold"),bg="black",fg="white" )
 new_label2.pack(padx=10,pady=10, fill="both", expand=True)
